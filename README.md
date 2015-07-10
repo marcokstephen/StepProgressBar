@@ -5,6 +5,7 @@ An Android progress bar that uses coloured circles or drawables, and can be "ste
 ![](http://i.imgur.com/K5TVIE5.png)
 ![](http://i.imgur.com/UFVWpPN.png)
 ## Usage
+````xml
     <com.marcok.stepprogressbar.StepProgressBar
         android:layout_centerVertical="true"
         android:layout_height="0dp"
@@ -19,10 +20,11 @@ An Android progress bar that uses coloured circles or drawables, and can be "ste
         app:numberDots="6"
         app:dotSize="20dp"
         app:spacing="20dp"/>
+````
 * If dot icons are provided, they override dot colors
 * Layout height is irrelevant and determined by the `dotSize`
 * To move to the next dot or previous dot:
-````
+````java
 StepProgressBar mStepProgressBar = (StepProgressBar)findViewById(R.id.stepProgressBar);
 mStepProgressBar.next();
 mStepProgressBar.previous();

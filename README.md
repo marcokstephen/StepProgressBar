@@ -1,5 +1,5 @@
 # StepProgressBar
-An Android progress bar that uses coloured circles or drawables, and can be "stepped through" by the user
+An Android progress bar that uses coloured circles or drawables, and can be "stepped through" by calling `next()`.
 
 ![](http://i.imgur.com/kGQZL4H.png)
 ![](http://i.imgur.com/K5TVIE5.png)

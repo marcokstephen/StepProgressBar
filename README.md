@@ -8,7 +8,7 @@ An Android progress bar that uses coloured circles or drawables, and can be "ste
 ````groovy
 dependencies {
     ....
-    compile 'com.marcok.stepprogressbar:stepprogressbar:1.0.0'
+    compile 'com.marcok.stepprogressbar:stepprogressbar:1.0.1'
 }
 ````
 ## Usage

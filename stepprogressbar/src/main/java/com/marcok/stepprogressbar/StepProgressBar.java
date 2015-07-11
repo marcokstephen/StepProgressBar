@@ -65,7 +65,7 @@ public class StepProgressBar extends View {
 
         // Centering the dots in the middle of the canvas
         float singleDotSize = dotSpacing+dotSize;
-        float combinedDotSize = singleDotSize * maxNumDots;
+        float combinedDotSize = singleDotSize * maxNumDots - dotSpacing;
         int startingX = (int)((canvas.getWidth() - combinedDotSize)/2);
 
         for (int i = 0; i < maxNumDots; i++){

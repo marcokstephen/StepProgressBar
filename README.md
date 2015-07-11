@@ -4,6 +4,13 @@ An Android progress bar that uses coloured circles or drawables, and can be "ste
 ![](http://i.imgur.com/kGQZL4H.png)
 ![](http://i.imgur.com/K5TVIE5.png)
 ![](http://i.imgur.com/UFVWpPN.png)
+## Gradle
+````groovy
+dependencies {
+    ....
+    compile 'com.marcok.stepprogressbar:stepprogressbar:1.0.0'
+}
+````
 ## Usage
 ````xml
     <com.marcok.stepprogressbar.StepProgressBar
